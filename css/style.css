@@ -243,7 +243,7 @@ nav ul {
     display: inline-block;
     padding-left: 0;
     list-style: none;
-    padding: 20px;
+    padding: 20px 0;
     margin-bottom: 0;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -294,7 +294,6 @@ a.active {
     background-size: cover;
     height: 100vh;
     position: relative;
-
 }
 
 
@@ -1045,7 +1044,7 @@ fieldset {
 
     #home,
     .disply-table {
-        height: 100vh;
+        height: 70vh;
     }
 
     .about-border {
@@ -1113,7 +1112,7 @@ fieldset {
     }
 }
 
-@media (max-width: 335px) {
+@media (max-width: 375px) {
     .size-50 {
         font-family: 'BMJUA';
         font-size: 35px;
