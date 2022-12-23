@@ -1,0 +1,92 @@
+/*전체설정*/
+@charset 'UTF-8';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'BMJUA';
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* top */
+#top {
+    max-width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#top img {
+    max-width: 100%;
+}
+
+
+/* home 버튼 s */
+.home {
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    color: #333;
+}
+
+.top_btn {
+    position: fixed;
+    bottom: 10%;
+    right: 2%;
+    color: #555;
+}
+
+.home_inner {
+    width: 50px;
+    height: 50px;
+}
+
+.bg_1 {
+    display: block;
+}
+
+.bg_1 p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.home_inner:hover img {
+    transform: rotate(45deg);
+}
+
+
+.home_inner img {
+    transition: all 0.5s;
+}

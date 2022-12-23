@@ -1,0 +1,125 @@
+/*전체설정*/
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+body {
+    font-family: 'BMJUA';
+    background-color: #000;
+    color: #fff;
+}
+
+#top {
+    max-width: 100%;
+    margin-top: 12%;
+}
+
+.top_inner {
+    max-width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top_inner h1 {
+    font-size: 400%;
+    font-family: 'Pretendard';
+}
+
+.top_inner img {
+    max-width: 100%;
+}
+
+.top_inner ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.top_inner ul li {
+    margin-top: 50px;
+}
+
+.top_inner ul li:hover {
+    transform: rotate(15deg) scale(110%, 110%);
+    transition: all 0.5s;
+}
+
+
+/* home 버튼 s */
+.home {
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    color: #333;
+}
+
+.top_btn {
+    position: fixed;
+    bottom: 10%;
+    right: 2%;
+    color: #555;
+}
+
+.home_inner {
+    width: 50px;
+    height: 50px;
+}
+
+.bg_1 {
+    display: block;
+}
+
+.bg_1 p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.home_inner:hover img {
+    transform: rotate(45deg);
+}
+
+
+.home_inner img {
+    transition: all 0.5s;
+}
+
+@media (max-width:700px) {
+    .top_inner h1 {
+        font-size: 300%;
+        font-family: 'Pretendard';
+    }
+}
+
+@media (max-width:1287px) {
+    .top_inner {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
